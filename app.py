@@ -371,6 +371,6 @@ st.dataframe(
 
 st.markdown(
     f"<p style='text-align:right; color:{'#8B949E' if is_dark else '#718096'}; font-size:0.8rem;'>"
-    f"Total {len(df)} lantai diproses · Sistem Cerdas IKP © 2025 · Bagus Karunia Ananda — Universitas Mercu Buana</p>",
+    f"Total {len(df)} lantai diproses · Sistem Cerdas IKP © 2026 · Bagus Karunia Ananda — Universitas Mercu Buana</p>",
     unsafe_allow_html=True,
 )
