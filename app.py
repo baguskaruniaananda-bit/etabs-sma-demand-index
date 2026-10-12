@@ -364,11 +364,9 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 st.markdown("#### 🗂️ Tabel Data Mentah")
 st.dataframe(
-    df.style.format({"Drift": "{:.5f}", "DC_Ratio": "{:.4f}"})
-           .background_gradient(subset=["Drift"],    cmap="YlOrRd")
-           .background_gradient(subset=["DC_Ratio"], cmap="RdYlGn_r"),
+    df,
     use_container_width=True,
-    height=min(400, 35 * len(df) + 40),
+    height=min(400, 35 * len(df) + 40)
 )
 
 st.markdown(
